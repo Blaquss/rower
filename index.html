@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona informacyjna</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .hero {
+            display: grid;
+            place-items: center;
+            height: 300px;
+            background: #f2f2f2;
+            text-align: center;
+        }
+        section {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Logo</h1>
+            <img src="" alt="">
+        </div>
+        <nav>
+            <a href="#hero">Hero</a>
+            <a href="#info">Informacje</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+    <div id="hero" class="hero">
+        <h2>Slogan</h2>
+    </div>
+    <section id="info">
+        <div>
+            <h2>Informacje o produkcie lub wydarzeniu</h2>
+            <p>Tutaj umieść swoje informacje wykorzystując Flexbox i Grid.</p>
+        </div>
+    </section>
+    <footer id="contact">
+        <div>
+            <p>Informacje kontaktowe</p>
+            <p>Email: kontakt@strona.pl</p>
+            <p>Telefon: 123-456-789</p>
+        </div>
+    </footer>
+</body>
+</html>
